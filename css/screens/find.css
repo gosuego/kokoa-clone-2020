@@ -84,3 +84,22 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-post__heart-count:hover i {
+  /* 아이콘에 마우스가 올라가면 애니메이션이 작동함 */
+  will-change: transform; /* 브라우저에게 바뀐다는 걸 알려줘 더 부드럽게 바뀌도록 한다. 그래픽카드를 이용해서 애니메이션을 가속화 한다. */
+  animation: heartBeat 1s linear infinite;
+}
