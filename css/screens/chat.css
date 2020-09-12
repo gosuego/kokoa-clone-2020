@@ -103,6 +103,7 @@
   padding: 5px 25px;
   box-sizing: border-box;
   align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -120,6 +121,7 @@
   width: 92%; /*column에 먼저 width를 줘야 input에도 width가 적용된다. */
   border: var(--main-border);
   border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -144,4 +146,22 @@
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
+}
+.reply .reply__column:first-child,
+.reply .fa-grin-wink,
+.reply button {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-grin-wink,
+.reply:focus-within button {
+  opacity: 0;
+}
+.reply:focus-within input {
+  width: 92vw;
+  transform: translateX(-13%) translateY(-80px);
+}
+.reply:focus-within {
+  transform: translateY(80px);
 }
