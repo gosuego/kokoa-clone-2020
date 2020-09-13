@@ -46,6 +46,7 @@
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  animation: mysend 1s ease-in-out forwards;
 }
 .message-row img {
   width: 50px;
@@ -75,9 +76,28 @@
   opacity: 0.7;
   font-size: 13px;
 }
-.message-row__own {
-  justify-content: flex-end;
+.massage-row__back {
+  opacity: 0;
+  animation-delay: 1s;
 }
+
+@keyframes mysend {
+  0% {
+    opacity: 0;
+    transform: skewY(1.07rad);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.message-row__own {
+  opacity: 0;
+  justify-content: flex-end;
+  animation: mysend 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
 .message-row__own .message__bubble {
   background-color: skyblue;
   border-top-right-radius: 0px;
