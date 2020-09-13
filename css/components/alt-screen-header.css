@@ -27,3 +27,10 @@
 .alt-header__column:last-child span {
   margin-left: 15px;
 }
+.change-icon > .fas + .fas,
+.change-icon:hover > .fas {
+  display: none;
+}
+.change-icon:hover > .fas + .fas {
+  display: inherit;
+}
