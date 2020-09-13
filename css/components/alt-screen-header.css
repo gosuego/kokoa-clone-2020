@@ -26,6 +26,7 @@
 }
 .alt-header__column:last-child span {
   margin-left: 15px;
+  width: 25px;
 }
 .change-icon > .fas + .fas,
 .change-icon:hover > .fas {
@@ -33,4 +34,7 @@
 }
 .change-icon:hover > .fas + .fas {
   display: inherit;
+}
+.change-icon > i {
+  width: 25px;
 }
