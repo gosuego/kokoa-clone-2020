@@ -10,10 +10,25 @@
   font-weight: 600;
 }
 .icon-dot {
-  background-color: tomato;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+
+  position: absolute; /**/
+  left: 30px;
+  bottom: 30px;
+}
+.cog-dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 450px;
+  bottom: 50px;
 }

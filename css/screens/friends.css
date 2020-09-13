@@ -48,4 +48,5 @@
   font-size: 150px;
   animation: hideSplashScreen 0.5s ease-in-out forwards; /*마지막 키프레임값*/
   animation-delay: 0.5s; /* 애니메이션을 딜레이 시킨다. */
+  z-index: 3;
 }

@@ -6,7 +6,12 @@
   padding-top: 55px;
   margin-bottom: 10px;
 }
-
+.screen-header__fixed {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;
