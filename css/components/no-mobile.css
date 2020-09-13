@@ -11,9 +11,8 @@
   top: 0;
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 645px) and (orientation: portrait) {
   #no-mobile {
     display: none;
   }
 }
-/*landscap 으로 하나 더 만들어보기!*/
