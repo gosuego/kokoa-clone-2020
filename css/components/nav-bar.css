@@ -16,7 +16,6 @@
   position: relative;
   color: #2e2e2e;
 }
-
 @keyframes notificationAnimation {
   0% {
     transform: none;
