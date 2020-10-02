@@ -32,3 +32,34 @@
   font-size: 32px;
   color: white;
 }
+.kokoa-pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: var(--sub-comment);
+  color: white;
+  border-radius: 10px;
+}
+.kokoa-pay__column-pay {
+  padding: 10px;
+  background-color: var(--sub-comment);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kokoa-pay__column-pay i {
+  margin-right: 5px;
+}
+.kokoa-pay__column-pay span:last-child {
+  margin-left: 10px;
+}
+.kokoa-pay__column span:nth-last-child(n + 2) a {
+  padding-right: 7px;
+  border-right: 1px solid var(--sub-comment);
+}
+.kokoa-pay__column a:hover {
+  color: var(--sub-comment);
+}
