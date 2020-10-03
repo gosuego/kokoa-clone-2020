@@ -4,7 +4,7 @@
 
 ## [배포 링크](https://gosuego.github.io/kokoa-clone-2020/)
 
-![demo](./screenshots/kokoa-clone.gif)
+![demo](./screenshots/kokoa__clone.gif)
 
 ## 사용기술
 
