@@ -1,6 +1,5 @@
 #chat-screen {
   background-color: #c7e63d;
-  height: 110vh;
   /*chat screen을 스크롤 할 수 있게 하기 위해서*/
 }
 #chat-screen .alt-header,
@@ -84,7 +83,7 @@
 @keyframes mysend {
   0% {
     opacity: 0;
-    transform: skewY(1.07rad);
+    transform: rotate(90deg);
   }
   100% {
     opacity: 1;

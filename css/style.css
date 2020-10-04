@@ -26,5 +26,4 @@ body {
 }
 .main-screen {
   padding: 130px var(--horizontal-space);
-  height: 110vh;
 }
