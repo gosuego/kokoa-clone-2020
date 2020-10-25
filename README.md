@@ -8,7 +8,7 @@
 
 ## 사용기술
 
-HTML, CSS
+HTML5, CSS3
 
 ### 세부기술
 
